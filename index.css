@@ -6,20 +6,17 @@ div {
   margin-top: 200px;
   display: block;
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
   font-family: cursive;
   height: 100px;
 }
 
-#header div {
-  display: inline-block;
-}
 
 #proftitle {
   display: block;
   text-align: center;
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 4px;
 }
 
 #navbar {
@@ -40,6 +37,10 @@ div {
 }
 
 #passions {
+  margin-right: 30px;
+}
+
+#portfolio{
   margin-right: 30px;
 }
 
