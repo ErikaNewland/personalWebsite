@@ -1,0 +1,202 @@
+div {
+  display: block;
+}
+
+#header {
+  display: block;
+}
+
+#name {
+  font-family: serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer
+}
+
+#name:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.contactinfo {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+}
+
+#seperator{
+  font-size: 30px;
+  height: 5px;
+  width: 5px;
+  border-color: black;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#email{
+  margin-right: 10px;
+}
+
+.horizontalline{
+  background-color: black;
+  height: 1px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.bodysection {
+  margin-top: 30px;
+}
+
+.bodytitle{
+  display: block;
+  text-align: center;
+  font-family: serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.job, .pub {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  display: inline-block;
+  text-align: left;
+  margin-top: 5px;
+  width: 725px;
+
+}
+
+#proftitle {
+  margin-top: 30px;
+}
+
+.companyanddateline {
+  margin-top: 25px;
+  display: block;
+}
+
+.line{
+  display: inline-block;
+}
+
+.companyname{
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+
+a.companyname:hover {
+  text-decoration-color: blue;
+}
+
+a.emailaddress:hover{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.location {
+  margin-left: 2px;
+}
+
+.dates {
+  margin-left: 2px;
+  float: right;
+}
+
+.jobtitle{
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.jobtitle.hassubdates{
+  display: inline-block;
+}
+
+.dates.subdates{
+  display: inline-block;
+}
+
+.responsibilities {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-align: justify;
+}
+
+li {
+  margin-top: 3px;
+}
+
+.firstline {
+  margin-top: 25px;
+}
+
+.degree {
+  display: inline-block;
+  font-weight: bold;
+}
+
+a.degree:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.degreeinfo {
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.school {
+  display: inline-block;
+  font-style: italic;
+}
+
+.citystate {
+  display: inline-block;
+}
+
+a.thesis:hover, a.pub:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+#first {
+  margin-top: 25px;
+}
+
+#last{
+  margin-bottom: 35px;
+}
+
+.navigation {
+  text-align: center;
+}
+
+#home, #interests, #portfolio, #links {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+#home:hover{
+  font-weight: bold;
+}
