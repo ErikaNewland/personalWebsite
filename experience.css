@@ -7,12 +7,17 @@ div {
 }
 
 #name {
-  font-family: serif;
+  font-family: cursive;
   font-size: 30px;
-  text-transform: uppercase;
   font-weight: bold;
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+#location{
+  font-variant: small-caps;
+  font-size: 25px;
+  margin-left: 25px;
 }
 
 a {
@@ -21,10 +26,7 @@ a {
   cursor: pointer
 }
 
-#name:hover {
-  text-decoration: underline;
-  text-decoration-color: blue;
-}
+
 
 #contact {
   text-align: center;
@@ -66,7 +68,7 @@ a {
   display: block;
   text-align: center;
   font-family: serif;
-  font-size: 20px;
+  font-size: 19px;
   text-transform: uppercase;
 }
 
@@ -190,13 +192,14 @@ a.thesis:hover, a.pub:hover {
   text-align: center;
 }
 
-#home, #interests, #portfolio, #links {
+#home, #interests, #portfolio, #linkedin, #github, #experience {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
   font-size: 16px;
 }
 
-#home:hover{
-  font-weight: bold;
+a.nav:hover{
+  text-decoration: underline;
+  text-decoration-color: blue;
 }

@@ -1,0 +1,56 @@
+div {
+  display: block;
+}
+
+#header {
+  display: block;
+}
+
+#name {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+#location{
+  font-variant: small-caps;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.main {
+  display: block;
+}
+
+.bin {
+  position: relative;
+  display:block;
+  overflow: hidden;
+}
+
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+}
+
+
+
+
+.navigation {
+  text-align: center;
+}
+
+#home, #interests, #portfolio, #linkedin, #github, #experience {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+a.nav:hover{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}

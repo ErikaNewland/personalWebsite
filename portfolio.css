@@ -1,0 +1,110 @@
+div {
+  display: block;
+}
+
+#header {
+  display: block;
+}
+
+#name {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+#location{
+  font-variant: small-caps;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+
+#headlinemessage{
+  margin-top: 90px;
+  display: block;
+  text-align: center;
+  font-size: 80px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  height: 100px;
+}
+
+#instead {
+  text-align: center;
+  font-size: 30px;
+  font-variant: small-caps;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+button{
+  padding:5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#container {
+  width:480px;
+  height:480px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: orange;
+  font-size: 0px;
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: inline-block;
+/*  width: 30px; */
+/*  height:30px; */
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  border:0px;
+  border: 0px;
+  background-color: transparent;
+  float:left;
+  /*border-style: solid;
+  border-width: 1px;*/
+}
+
+.navigation {
+  text-align: center;
+}
+
+.horizontalline{
+  background-color: black;
+  height: 1px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+
+#home, #interests, #portfolio, #linkedin, #github, #experience {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer
+}
+
+a.nav:hover{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}

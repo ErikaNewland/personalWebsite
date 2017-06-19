@@ -16,12 +16,16 @@ div {
   display: block;
   text-align: center;
   font-size: 40px;
-  margin-top: 4px;
+  margin-top: 20px;
 }
 
-#navbar {
+#navbar{
   text-align: center;
-  margin-top: 25px;
+  margin-top: 45px;
+}
+
+#lowernavbar{
+  text-align: center;
 }
 
 .nav {
@@ -40,7 +44,8 @@ div {
   margin-right: 30px;
 }
 
-#portfolio{
+
+#linkedin {
   margin-right: 30px;
 }
 
